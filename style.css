@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fbfd;
+    background-image: url('https://www.transparenttextures.com/patterns/white-wall.png');
+    background-repeat: repeat;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  
+  .form-container {
+    max-width: 420px;
+    background: #ffffff;
+    padding: 55px;
+    
+    margin: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border-color 0.3s;
+  }
+  
+  input:focus {
+    border-color: #4da6ff;
+    outline: none;
+  }
+  
+  .error {
+    color: #d9534f;
+    font-size: 13px;
+    margin-top: 4px;
+    display: block;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4da6ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover:enabled {
+    background-color: #3399ff;
+  }
+  
+  button:disabled {
+    background-color: #c7d8ee;
+    cursor: not-allowed;
+  }
+  

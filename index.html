@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation with jQuery</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form id="myForm">
+      <label>Name:</label>
+      <input type="text" id="name" >
+      <span class="error" id="nameError"></span>
+
+      <label>Email:</label>
+      <input type="email" id="email" >
+      <span class="error" id="emailError"></span>
+
+      <label>Password:</label>
+      <input type="password" id="password" >
+      <span class="error" id="passwordError"></span>
+
+      <label>Confirm Password:</label>
+      <input type="password" id="confirmPassword" >
+      <span class="error" id="confirmPasswordError"></span>
+
+
+      <button type="submit" id="submitBtn" disabled>Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
